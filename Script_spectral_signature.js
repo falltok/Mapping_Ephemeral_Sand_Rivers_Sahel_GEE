@@ -1,5 +1,5 @@
 // Charger le shapefile des points représentant les types de sols
-var points = ee.FeatureCollection('projects/ee-axelbelemtougri/assets/Train_points_new_bis1');
+var points = ee.FeatureCollection('projects/ee-axelbelemtougri/assets/Train_points');
 
 // Charger la région d'intérêt
 var region = ee.FeatureCollection("projects/ee-axelbelemtougri/assets/Cdo_eph_aoi_1000km2_buf_Simp");
